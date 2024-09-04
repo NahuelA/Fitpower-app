@@ -1,4 +1,4 @@
-package fitpower.service.interfaces.monitoreo;
+package fitpower.repositorio.interfaces.monitoreo;
 
-public interface IDeteccionDeEstancamientoService {
+public interface IDeteccionDeEstancamientoRepositorio {
 }

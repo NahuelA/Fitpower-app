@@ -1,9 +1,9 @@
-package fitpower.model.Comunicacion;
+package fitpower.model.comunicacion;
 
-import fitpower.model.Base.Fecha;
-import fitpower.model.Evaluacion.EvaluacionDeProgreso;
-import fitpower.model.Nutricion.PlanDeNutricion;
-import fitpower.model.Rutina.Rutina;
+import fitpower.model.base.Fecha;
+import fitpower.model.evaluacion.EvaluacionDeProgreso;
+import fitpower.model.nutricion.PlanDeNutricion;
+import fitpower.model.rutina.Rutina;
 
 import java.util.Map;
 

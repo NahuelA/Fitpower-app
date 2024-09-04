@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.rutina;public interface IRutinaService {
+package fitpower.service.interfaces.rutina;
+
+public interface IRutinaService {
 }

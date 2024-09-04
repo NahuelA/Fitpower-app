@@ -1,4 +1,4 @@
-package fitpower.controller.Operativa;
+package fitpower.controller.operativa;
 
 public class FichaAsistenciaController {
 }

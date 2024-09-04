@@ -1,6 +1,6 @@
-package fitpower.model.Nutricion;
+package fitpower.model.nutricion;
 
-import fitpower.model.Base.Fecha;
+import fitpower.model.base.Fecha;
 
 import java.time.LocalDateTime;
 

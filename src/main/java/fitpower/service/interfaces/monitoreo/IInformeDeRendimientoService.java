@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.monitoreo;public interface IInformeDeRendimiento {
+package fitpower.service.interfaces.monitoreo;
+
+public interface IInformeDeRendimientoService {
 }

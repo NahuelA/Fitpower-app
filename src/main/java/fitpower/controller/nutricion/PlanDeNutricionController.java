@@ -1,4 +1,4 @@
-package fitpower.controller.Nutricion;
+package fitpower.controller.nutricion;
 
 public class PlanDeNutricionController {
 }

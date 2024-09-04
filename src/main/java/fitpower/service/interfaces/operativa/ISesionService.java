@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.operativa;public interface ISesion {
+package fitpower.service.interfaces.operativa;
+
+public interface ISesionService {
 }

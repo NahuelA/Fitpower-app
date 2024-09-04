@@ -1,4 +1,4 @@
-package fitpower.controller.Evaluacion;
+package fitpower.controller.evaluacion;
 
 public class EvaluacionDeProgresoController {
 }

@@ -1,4 +1,4 @@
-package fitpower.model.Usuario;
+package fitpower.model.usuario;
 
 public class Entrenador {
 }

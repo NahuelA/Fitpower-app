@@ -1,4 +1,4 @@
-package fitpower.model.Base;
+package fitpower.model.base;
 
 import java.time.LocalDateTime;
 

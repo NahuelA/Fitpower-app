@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.evaluacion;public interface INotificacion {
+package fitpower.service.interfaces.evaluacion;
+
+public interface INotificacionService {
 }

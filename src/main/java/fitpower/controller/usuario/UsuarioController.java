@@ -1,4 +1,4 @@
-package fitpower.controller.Usuario;
+package fitpower.controller.usuario;
 
 public class UsuarioController {
 }

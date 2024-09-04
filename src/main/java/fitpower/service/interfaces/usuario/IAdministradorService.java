@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.usuario;public interface IAdministradorService {
+package fitpower.service.interfaces.usuario;
+
+public interface IAdministradorService {
 }

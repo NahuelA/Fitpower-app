@@ -1,6 +1,6 @@
-package fitpower.model.Monitoreo;
+package fitpower.model.monitoreo;
 
-import fitpower.model.Base.Fecha;
+import fitpower.model.base.Fecha;
 
 public class DeteccionDeEstancamiento extends Fecha {
 

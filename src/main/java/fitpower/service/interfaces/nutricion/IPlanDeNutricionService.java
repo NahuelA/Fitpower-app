@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.nutricion;public interface IPlanDeNutricion {
+package fitpower.service.interfaces.nutricion;
+
+public interface IPlanDeNutricionService {
 }

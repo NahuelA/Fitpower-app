@@ -1,6 +1,6 @@
-package fitpower.model.Rutina;
+package fitpower.model.rutina;
 
-import fitpower.model.Base.Fecha;
+import fitpower.model.base.Fecha;
 
 public class Rutina extends Fecha {
 

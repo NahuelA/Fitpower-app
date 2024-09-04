@@ -1,4 +1,8 @@
-package fitpower.service;
+package fitpower.service.usuario;
 
-public class ClienteService {
+import fitpower.service.interfaces.usuario.IClienteService;
+
+public class ClienteService implements IClienteService {
+
+
 }

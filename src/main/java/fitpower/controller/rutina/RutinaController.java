@@ -1,4 +1,4 @@
-package fitpower.controller.Rutina;
+package fitpower.controller.rutina;
 
 public class RutinaController {
 }

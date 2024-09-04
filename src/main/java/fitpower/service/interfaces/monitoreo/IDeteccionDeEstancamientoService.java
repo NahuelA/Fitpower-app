@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.monitoreo;public interface IDeteccionDeEstancamiento {
+package fitpower.service.interfaces.monitoreo;
+
+public interface IDeteccionDeEstancamientoService {
 }

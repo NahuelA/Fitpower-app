@@ -1,4 +1,4 @@
-package fitpower.service.interfaces.evaluacion;
+package fitpower.repositorio.interfaces.evaluacion;
 
-public interface IEvaluacionDeProgresoService {
+public interface IEvaluacionDeProgresoRepositorio {
 }

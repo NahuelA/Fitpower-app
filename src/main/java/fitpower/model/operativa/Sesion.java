@@ -1,4 +1,4 @@
-package fitpower.model.Operativa;
+package fitpower.model.operativa;
 
 public class Sesion extends Reunion {
 

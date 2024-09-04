@@ -1,6 +1,4 @@
-package fitpower.model.Operativa;
-
-import java.time.LocalDateTime;
+package fitpower.model.operativa;
 
 public class Clase extends Reunion{
 

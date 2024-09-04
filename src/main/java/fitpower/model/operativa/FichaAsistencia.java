@@ -1,6 +1,6 @@
-package fitpower.model.Operativa;
+package fitpower.model.operativa;
 
-import fitpower.model.Base.Fecha;
+import fitpower.model.base.Fecha;
 
 import java.time.LocalDateTime;
 

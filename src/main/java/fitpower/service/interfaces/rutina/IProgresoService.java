@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.rutina;public class IProgresoService {
+package fitpower.service.interfaces.rutina;
+
+public class IProgresoService {
 }

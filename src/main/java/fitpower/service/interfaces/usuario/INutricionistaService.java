@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.usuario;public interface INutricionistaService {
+package fitpower.service.interfaces.usuario;
+
+public interface INutricionistaService {
 }

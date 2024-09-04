@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.operativa;public interface IClase {
+package fitpower.service.interfaces.operativa;
+
+public interface IClaseService {
 }

@@ -1,4 +1,4 @@
-package fitpower.service.interfaces.comunicacion;
+package fitpower.repositorio.interfaces.comunicacion;
 
-public interface IHistorialService {
+public interface IHistorialRepositorio {
 }

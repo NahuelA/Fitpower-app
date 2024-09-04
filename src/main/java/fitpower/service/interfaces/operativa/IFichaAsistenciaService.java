@@ -1,2 +1,4 @@
-package fitpower.service.interfaces.operativa;public interface IFichaAsistencia {
+package fitpower.service.interfaces.operativa;
+
+public interface IFichaAsistenciaService {
 }

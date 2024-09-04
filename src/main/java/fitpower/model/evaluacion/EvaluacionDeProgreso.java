@@ -1,6 +1,6 @@
-package fitpower.model.Evaluacion;
+package fitpower.model.evaluacion;
 
-import fitpower.model.Base.Fecha;
+import fitpower.model.base.Fecha;
 
 import java.time.LocalDateTime;
 
