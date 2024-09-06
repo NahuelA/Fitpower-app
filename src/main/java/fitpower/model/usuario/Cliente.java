@@ -1,6 +1,11 @@
 package fitpower.model.usuario;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Cliente extends Usuario{
+
+    public Map<String, Cliente> nutritionistMap = new HashMap<String, Cliente>();
 
     private String clienteId;
 
