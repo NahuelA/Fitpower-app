@@ -1,10 +1,14 @@
 package fitpower.model.operational;
 
 import fitpower.model.base.Date;
+import fitpower.model.nutrition.NutritionPlan;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class AttendanceRecord extends Date {
+
+    public final HashMap<String, AttendanceRecord> attendanceRecordMap = new HashMap<>();
 
     private String attendanceRecordId;
     private String clientDni;
