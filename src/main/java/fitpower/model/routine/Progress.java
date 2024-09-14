@@ -1,10 +1,14 @@
 package fitpower.model.routine;
 
 import fitpower.model.base.Date;
+import fitpower.model.operational.Session;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class Progress extends Date {
+
+    public final HashMap<String, Progress> progressMap = new HashMap<>();
 
     private String progressId;
     private String clientDni;

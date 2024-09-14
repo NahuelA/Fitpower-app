@@ -1,8 +1,13 @@
 package fitpower.model.nutrition;
 
 import fitpower.model.base.Date;
+import fitpower.model.monitoring.StagnationDetection;
+
+import java.util.HashMap;
 
 public class NutritionalIntake extends Date {
+
+    public final HashMap<String, NutritionalIntake> nutritionalIntakeMap = new HashMap<>();
 
     private String nutritionalIntakeId;
     private String clientDni;

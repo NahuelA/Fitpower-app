@@ -2,8 +2,11 @@ package fitpower.model.assessment;
 
 import fitpower.model.base.Date;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class ProgressEvaluation extends Date {
+
+    public final HashMap<String, ProgressEvaluation> progressEvaluationMap = new HashMap<>();
 
     private String clientDni;
     private LocalDateTime from;

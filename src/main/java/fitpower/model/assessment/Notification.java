@@ -2,7 +2,11 @@ package fitpower.model.assessment;
 
 import fitpower.model.base.Date;
 
+import java.util.HashMap;
+
 public class Notification extends Date {
+
+    public final HashMap<String, Notification> notificationMap = new HashMap<>();
 
     private String notificationId;
     private String clientDni;

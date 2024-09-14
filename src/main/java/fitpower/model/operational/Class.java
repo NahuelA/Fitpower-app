@@ -1,6 +1,10 @@
 package fitpower.model.operational;
 
+import java.util.HashMap;
+
 public class Class extends Meeting {
+
+    public final HashMap<String, Class> classMap = new HashMap<>();
 
     private String classId;
 

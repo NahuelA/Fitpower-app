@@ -2,7 +2,11 @@ package fitpower.model.routine;
 
 import fitpower.model.base.Date;
 
+import java.util.HashMap;
+
 public class Routine extends Date {
+
+    public final HashMap<String, Routine> routineMap = new HashMap<>();
 
     private String routineId;
     private String clientDni;

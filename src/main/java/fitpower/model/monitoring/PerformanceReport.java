@@ -1,10 +1,14 @@
 package fitpower.model.monitoring;
 
 import fitpower.model.base.Date;
+import fitpower.model.communication.History;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class PerformanceReport extends Date {
+
+    public final HashMap<String, PerformanceReport> performanceReportMap = new HashMap<>();
 
     private String performanceReportId;
     private String clientDni;

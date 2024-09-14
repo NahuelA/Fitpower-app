@@ -6,16 +6,15 @@ import fitpower.model.nutrition.NutritionPlan;
 import fitpower.model.routine.Routine;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class History extends Date {
 
-    public Map<String, History> historyMap = new HashMap<String, History>();
+    public final HashMap<String, History> historyMap = new HashMap<>();
 
     private String historyId;
-    private Map<String, Routine> routines;
-    private Map<String, NutritionPlan> nutritionPlans;
-    private Map<String, ProgressEvaluation> progressEvaluations;
+    private HashMap<String, Routine> routines;
+    private HashMap<String, NutritionPlan> nutritionPlans;
+    private HashMap<String, ProgressEvaluation> progressEvaluations;
 
     public String getHistoryId() {
         return historyId;
@@ -25,27 +24,27 @@ public class History extends Date {
         this.historyId = historyId;
     }
 
-    public Map<String, Routine> getRoutines() {
+    public HashMap<String, Routine> getRoutines() {
         return routines;
     }
 
-    public void setRoutines(Map<String, Routine> routines) {
+    public void setRoutines(HashMap<String, Routine> routines) {
         this.routines = routines;
     }
 
-    public Map<String, NutritionPlan> getNutritionPlans() {
+    public HashMap<String, NutritionPlan> getNutritionPlans() {
         return nutritionPlans;
     }
 
-    public void setNutritionPlans(Map<String, NutritionPlan> nutritionPlans) {
+    public void setNutritionPlans(HashMap<String, NutritionPlan> nutritionPlans) {
         this.nutritionPlans = nutritionPlans;
     }
 
-    public Map<String, ProgressEvaluation> getProgressEvaluations() {
+    public HashMap<String, ProgressEvaluation> getProgressEvaluations() {
         return progressEvaluations;
     }
 
-    public void setProgressEvaluations(Map<String, ProgressEvaluation> progressEvaluations) {
+    public void setProgressEvaluations(HashMap<String, ProgressEvaluation> progressEvaluations) {
         this.progressEvaluations = progressEvaluations;
     }
 }

@@ -3,6 +3,7 @@ package fitpower.model.operational;
 import fitpower.model.base.Date;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class Meeting extends Date {
 

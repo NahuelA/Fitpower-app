@@ -2,7 +2,11 @@ package fitpower.model.monitoring;
 
 import fitpower.model.base.Date;
 
+import java.util.HashMap;
+
 public class StagnationDetection extends Date {
+
+    public final HashMap<String, StagnationDetection> stagnationDetectionMap = new HashMap<>();
 
     private String clientDni;
     private Float muscleMassGainedPercentage;

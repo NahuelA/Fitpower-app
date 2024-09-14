@@ -1,16 +1,15 @@
 package fitpower.model.user;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Nutritionist extends User{
 
     private String nutritionistId;
-    private Map<String, Customer> clients;
+    private HashMap<String, Customer> clients;
     private Boolean isAvailable;
     private Integer limit;
 
-    public Map<String, Nutritionist> nutritionistMap = new HashMap<>();
+    public HashMap<String, Nutritionist> nutritionistMap = new HashMap<>();
 
     public Nutritionist(){}
 
@@ -24,7 +23,7 @@ public class Nutritionist extends User{
         boolean active,
         boolean isAvailable,
         int limit,
-        Map<String, Customer> clients
+        HashMap<String, Customer> clients
     )  {
         super(name,surname,dni,email,phone,address,active);
         this.isAvailable=isAvailable;
@@ -40,11 +39,11 @@ public class Nutritionist extends User{
         this.nutritionistId = nutritionistId;
     }
 
-    public Map<String, Customer> getClients() {
+    public HashMap<String, Customer> getClients() {
         return clients;
     }
 
-    public void setClients(Map<String, Customer> clients) {
+    public void setClients(HashMap<String, Customer> clients) {
         this.clients = clients;
     }
 

@@ -3,8 +3,11 @@ package fitpower.model.nutrition;
 import fitpower.model.base.Date;
 
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 public class NutritionPlan extends Date {
+
+    public final HashMap<String, NutritionPlan> nutritionPlanMap = new HashMap<>();
 
     private String nutritionPlanId;
     private String clientDni;
