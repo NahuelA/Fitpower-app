@@ -8,9 +8,6 @@ import java.util.Map;
 
 public class CustomerService implements ICustomerService {
 
-    public Customer customer = new Customer();
-    public Map<String, Customer> clienteMap = new HashMap<>();
-
     public void save(){
 
     }
