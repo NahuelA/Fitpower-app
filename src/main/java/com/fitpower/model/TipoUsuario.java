@@ -7,20 +7,15 @@ package com.fitpower.model;
 
 import java.io.Serializable;
 import java.util.Set;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
- *
  * @author Ariel
  */
 @Entity
-@Table(name = "tipo_usuario")
+@Table(name = "tipo_usuario", indexes = {
+        @Index(name = "idx_nombre", columnList = "nombre")
+})
 public class TipoUsuario implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -28,8 +23,8 @@ public class TipoUsuario implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "descripcion")
-    private String descripcion;
+    @Column(name = "nombre")
+    private String nombre;
 
     @OneToMany(mappedBy = "tipoUsuario")
     private Set<Usuario> usuarios;
@@ -52,27 +47,24 @@ public class TipoUsuario implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof TipoUsuario)) {
+        if (!(object instanceof TipoUsuario))
             return false;
-        }
+
         TipoUsuario other = (TipoUsuario) object;
-        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
-            return false;
-        }
-        return true;
+        return (this.id != null || other.id == null) && (this.id == null || this.id.equals(other.id));
     }
 
     @Override
     public String toString() {
-        return getDescripcion();
+        return getNombre();
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public Set<Usuario> getUsuarios() {
@@ -82,5 +74,4 @@ public class TipoUsuario implements Serializable {
     public void setUsuarios(Set<Usuario> usuarios) {
         this.usuarios = usuarios;
     }
-
 }

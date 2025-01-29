@@ -12,7 +12,6 @@ import java.awt.Color;
  */
 public class JFramePrincipal extends javax.swing.JFrame {
 
-    private JPanelCliente jPanelCalculadora;
     /**
      * Creates new form JFramePrincipal
      */
@@ -133,14 +132,10 @@ public class JFramePrincipal extends javax.swing.JFrame {
 
     private void jmiCalculadoraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmiCalculadoraActionPerformed
         //paso 1 crear el panel 
-        this.jPanelCalculadora = new JPanelCliente();        
-        this.jPanelCalculadora.setSize(600, 240);
-        this.jPanelCalculadora.setBackground(Color.blue);
-        
+
         //2- remover lo que esta adentro del panel que uso como contenido
         this.jPanelContenido.removeAll();    
         //3- Agregar el nuevo panel dentro del panel de contenido
-        this.jPanelContenido.add(this.jPanelCalculadora);    
         //4- repintar y validar el panel contenido
         this.jPanelContenido.repaint();       
         this.jPanelContenido.validate();

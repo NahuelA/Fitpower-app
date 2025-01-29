@@ -7,11 +7,7 @@ package com.fitpower.controller;
 
 import com.fitpower.model.Usuario;
 import com.fitpower.repository.Conexion;
-import com.fitpower.repository.UsuarioJpaController;
-import java.text.ParseException;
-import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import com.fitpower.repository.UsuarioRepository;
 
 /**
  * Controlador de Login de Usuario
@@ -20,14 +16,14 @@ import java.util.logging.Logger;
 public class LoginController {
 
     //DAO
-    private final UsuarioJpaController usuarioDAO;
+    private final UsuarioRepository usuarioDAO;
 
     //Model
     private static Usuario usuarioRegistradoInstanciaUnica = null;
 
     public LoginController() {
         //Inicializacion de DAO
-        this.usuarioDAO = new UsuarioJpaController(Conexion.getEmf());
+        this.usuarioDAO = new UsuarioRepository(Conexion.getEmf());
     }
 
     private synchronized static void createInstanceUsuario() {
